@@ -1,4 +1,3 @@
-
 while True:
     result = []
     price = 0
