@@ -13,7 +13,7 @@ while True:
         elif age >= 25:
             result.append(1390)
     price = int(sum(result))
-    if sum_ticket >= 3:
+    if sum_ticket > 3:
         price_discont = price - (price*0.1)
         print(f"\nЦена билетов co скидкой: {price_discont} рублей\n")
     else:
