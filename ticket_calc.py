@@ -5,7 +5,7 @@ while True:
     sum_ticket = int(input("Введите количество билетов: "))
     for count in range(sum_ticket):
         guest += 1
-        age = int(input(f"Введите возраст {guest}-го гостя: "))
+        age = int(input(f"Введите возраст {guest}-го посетителя: "))
         if age <= 18:
             result.append(0)
         elif age > 18 and age < 25:
